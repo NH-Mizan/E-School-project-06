@@ -1,0 +1,42 @@
+@media screen and (max-width:576px) {
+    body{
+        background-color: greenyellow;
+    }
+    .container{
+       max-width: 90%;
+        /* border: 2px solid red; */
+        margin: 0 auto;
+    }
+    .banner-area,
+    .our-info-inner,
+    .courses-item,
+    .footer-area{
+        grid-template-columns: 1fr;
+    }
+    .testimonial-inner{
+        flex-direction: column;
+    }
+    .nav-menu ul{
+        display: none;
+    }
+    .box-item{
+        width: 100%;
+    }
+    .box-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .box-item img{
+        width: 100%;
+      
+    }
+    .info-icon{
+        gap: 20px;
+    }
+    .info-icon img{
+        width: 20%;
+    }
+
+}
